@@ -1,0 +1,26 @@
+Display property 
+
+- block element -> by default take whole available width, content height
+
+- inline elements (considers only content width/height) -> only left/right padding/margin (move neighbouring elements away)
+    - top/bottom margin/padding apply but do not have affect on neighbouring elements
+
+- inline-block -> does not break onto new line, but height/width are respected. margin/padding work like in block
+    elements
+
+(tailwind) -> hidden (similar to display none), invisible (height/width occupied but just not visible)
+
+
+Grid/Flexes (require parent tags) -> controls inner display property of elements
+
+Flex
+- positioned horizontally by default 
+- justify -> used to align items within flex box in direction specified
+
+Screen break points : 
+base 
+sm  -> 640px
+md  -> 768px
+lg  -> 1024px
+xl  -> 1280px
+2xl -> 1536px
